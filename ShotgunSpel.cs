@@ -263,6 +263,7 @@ namespace ShotGunSpel
             {
                 listBox1.Items.Clear();
                 victorybtn.Enabled = true;
+                listBox1.Items.Add($"{playerNameLabel.Text} wins the game.");
                 winnerName = playerNameLabel.Text;
                 isGameOver = true;
                 btnShoot.Enabled = false;
@@ -273,6 +274,7 @@ namespace ShotGunSpel
             {
                 listBox1.Items.Clear();
                 victorybtn.Enabled = true;
+                listBox1.Items.Add("ThunderBolt wins the game.");
                 winnerName = "ThunderBolt";
                 isGameOver = true;
                 btnShoot.Enabled = false;
